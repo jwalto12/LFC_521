@@ -41,6 +41,7 @@ theme_classic()+
 labs(y ="average viable cell counts", x= "time(hours)")
 
 print(ave_viable_cell_count_graph)
+ggsave("ave_viable_cell_counts_graph.png")
 ```
 
 Let's split up the graphs since it is a bit hard to see strain EE36.
@@ -53,6 +54,7 @@ theme_classic()+
 labs(y ="average viable cell counts", x= "time(hours)")
 
 print(ave_viable_cell_count_graph_split)
+ggsave("ave_viable_cell_counts_graph_split.png")
 
 ```
 

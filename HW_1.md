@@ -95,6 +95,12 @@ print(ave_viable_cell_count_graph)
 
 ![](HW_1_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
+``` r
+ggsave("ave_viable_cell_counts_graph.png")
+```
+
+    ## Saving 7 x 5 in image
+
 Let’s split up the graphs since it is a bit hard to see strain EE36.
 
 ``` r
@@ -109,5 +115,11 @@ print(ave_viable_cell_count_graph_split)
 ```
 
 ![](HW_1_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+``` r
+ggsave("ave_viable_cell_counts_graph_split.png")
+```
+
+    ## Saving 7 x 5 in image
 
 ## From this data, we can see that Y4I appears to dominate the community at all timepoints. The viable cell counts of the other strains do not seem to vary much over the timepoints compared to Y4I. From this data we can show that Y4I does have a competitive advantage over the other strains.
